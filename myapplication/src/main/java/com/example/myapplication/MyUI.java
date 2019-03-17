@@ -215,9 +215,7 @@ class MainView extends VerticalLayout implements View {
 	menu.setHeight("100%");    	
 	menu.addStyleName("my_menu");
 	Button RegButton=new Button("Регистрация");
-	Button Button1=new Button("Кнопка");
-	menu.addComponent(RegButton);
-	menu.addComponent(Button1);
+	
 	
 	VerticalLayout welcome=new VerticalLayout();   	
 	welcome.setHeight("100%");
